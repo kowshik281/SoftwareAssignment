@@ -1,5 +1,5 @@
 #Menu file
-import addition,subtraction,multiplication,division
+import addition,subtract,multiplication,division
 
 
 
@@ -8,7 +8,7 @@ s=int(input("Enter your choice:"))
 if(s==1):
 	print(addition.add())
 elif(s==2):
-	print(subtraction.sub())
+	print(subtract.sub())
 elif(s==3):
 	print(multiplication.mult())
 elif(s==4):
